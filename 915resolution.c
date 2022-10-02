@@ -1,18 +1,12 @@
-/* 915 resolution by steve tomljenovic
+/* Copyright (C) 2022 Nathan Somers
  *
- * This was tested only on Sony VGN-FS550.  Use at your own risk
+ * This file is part of 915resolution.
  *
- * This code is based on the techniques used in :
+ * 915resolution is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
  *
- *   - 855patch.  Many thanks to Christian Zietz (czietz gmx net)
- *     for demonstrating how to shadow the VBIOS into system RAM
- *     and then modify it.
+ * 915resolution is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
- *   - 1280patch by Andrew Tipton (andrewtipton null li).
- *
- *   - 855resolution by Alain Poirier
- *
- * This source code is into the public domain.
+ * You should have received a copy of the GNU General Public License along with 915resolution. If not, see <https://www.gnu.org/licenses/>. 
  */
 
 #include <stdio.h>
@@ -25,8 +19,6 @@
 #include <sys/io.h>
 #include <unistd.h>
 #include <assert.h>
-
-
 
 #define NEW(a) ((a *)(calloc(1, sizeof(a))))
 #define FREE(a) (free(a))
