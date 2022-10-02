@@ -1,0 +1,14 @@
+Version 0.5.3    Apr 15, 2007
+  - Added support for 830, 946GZ, G965, Q965
+  - Fixed bug when mapping to file
+  - Added correct timing routines
+
+Version 0.5.2    Feb 2, 2006
+  - Added htotal/vtotal feature for BIOS type 1 (865G) from Sergey Saukh (thelich at yandex.ru)
+
+Version 0.5.1    Jan 25, 2006
+  - Added 945GM chipset
+
+Version 0.5
+  - Improved error reporting on invalid chipsets
+
