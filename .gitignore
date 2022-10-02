@@ -42,3 +42,5 @@
 *.idb
 *.pdb
 
+discarded-readme-text.txt
+dump_bios
