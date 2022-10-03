@@ -130,18 +130,20 @@ Example
 Chipset information
 -------------------
 
-CHIPSET                        ID             PAM
-======================================================
-845G, 845GL, 845GV             $2560_8086     $91 - $92
-865G, 865GV                    $2570_8086     $91 - $92
-855GM, 855GME, 852GM, 852GMV   $3580_8086     $5A - $5b
-915G                           $2580_8086     $91 - $92
-915PM, 915GM, 915GMS, 910GML   $2590_8086     $91 - $92
-945G                           $2770_8086     $91 - $92
-945GM                          $27A0_8086     $91 - $92
+|            CHIPSET           |     ID     |    PAM    |
+|:----------------------------:|:----------:|:---------:|
+| 845G, 845GL, 845GV           | $2560_8086 | $91 - $92 |
+| 865G, 865GV                  | $2570_8086 | $91 - $92 |
+| 855GM, 855GME, 852GM, 852GMV | $3580_8086 | $5A - $5b |
+| 915G                         | $2580_8086 | $91 - $92 |
+| 915PM, 915GM, 915GMS, 910GML | $2590_8086 | $91 - $92 |
+|             945G             | $2770_8086 | $91 - $92 |
+|            945GM             | $27A0_8086 | $91 - $92 |
 
 
 Provenance disclaimer
 ---------------------
 
 This program incorporated public domain work originally written by Steve Tomljenovic, which was itself based on techniques in the work of Christian Zietz, Andrew Tipton, and Alain Poirier.
+
+More thorough information can be found on Steve Tomljenovic's website, which is archived [here](https://web.archive.org/web/20100610094322/http://915resolution.mango-lang.org:80/).
